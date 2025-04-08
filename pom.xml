@@ -64,7 +64,7 @@
 	</dependencies>
 
 	<build>
-		<finalName>test</finalName>
+		<finalName>teste</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
