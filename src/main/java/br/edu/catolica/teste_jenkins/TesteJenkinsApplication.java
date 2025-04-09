@@ -8,10 +8,10 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 @SpringBootApplication
 public class TesteJenkinsApplication extends SpringBootServletInitializer {
 
-	@Override
-	protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
-		return builder.sources(TesteJenkinsApplication.class);
-	}
+//	@Override
+//	protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
+//		return builder.sources(TesteJenkinsApplication.class);
+//	}
 
 	public static void main(String[] args) {
 		SpringApplication.run(TesteJenkinsApplication.class, args);
